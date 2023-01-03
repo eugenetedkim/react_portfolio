@@ -3,7 +3,11 @@ import React from 'react';
 
 export default function Navbar() {
   return (
-    <header className="bg-gray-900 md:sticky top-0 z-10">
+    <header
+      className="bg-gray-900 md:sticky top-0 z-10"
+      data-aos="fade-down"
+      data-aos-delay="400"
+    >
       <div className="container mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center">
         <a
           href="#about"
