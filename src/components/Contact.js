@@ -51,19 +51,19 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="pt-8">
-      <div className="container px-5 py-10 mx-auto h-full">
+    <section id="contact" className="pt-8 lg:h-screen">
+      <div className="container px-5 py-10 mx-auto h-screen">
         <div className="text-center mb-20">
           <MailIcon className="w-10 inline-block mb-4" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
             Contact Me
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-            Please feel free to send me an email message below and I'll get back
-            to you shortly.
+            Please provide your name, email, and a message and I'll get back to
+            you shortly.
           </p>
         </div>
-        <div className="container px-5 mx-auto flex justify-center sm:flex-nowrap flex-wrap h-screen">
+        <div className="container px-5 mx-auto flex justify-center sm:flex-nowrap flex-wrap">
           <form ref={form} onSubmit={sendEmail} className="flex flex-col w-2/5">
             <div className="relative mb-4">
               <label htmlFor="name" className="leading-7 text-sm text-gray-400">
