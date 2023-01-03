@@ -64,7 +64,11 @@ export default function Contact() {
           </p>
         </div>
         <div className="container px-5 mx-auto flex justify-center sm:flex-nowrap flex-wrap">
-          <form ref={form} onSubmit={sendEmail} className="flex flex-col w-2/5">
+          <form
+            ref={form}
+            onSubmit={sendEmail}
+            className="flex flex-col lg:w-2/5"
+          >
             <div className="relative mb-4">
               <label htmlFor="name" className="leading-7 text-sm text-gray-400">
                 Name
