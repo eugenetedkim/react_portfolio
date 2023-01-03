@@ -17,7 +17,7 @@ export default function About() {
               Eugene Kim.
             </h1>
             <h1 className="title-font text-6xl mb-4 font-medium text-gray-300">
-              I love building web applications.
+              A builder of modern web applications.
             </h1>
             <p className="leading-relaxed lg:text-lg">
               Currently, I'm a software engineer at{' '}

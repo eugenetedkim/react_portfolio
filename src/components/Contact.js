@@ -5,29 +5,6 @@ import { MailIcon } from '@heroicons/react/solid';
 export default function Contact() {
   const form = useRef();
 
-  // const [name, setName] = React.useState('');
-  // const [email, setEmail] = React.useState('');
-  // const [message, setMessage] = React.useState('');
-
-  // function encode(data) {
-  //   return Object.keys(data)
-  //     .map(
-  //       (key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key])
-  //     )
-  //     .join('&');
-  // }
-
-  // function handleSubmit(e) {
-  //   e.preventDefault();
-  //   fetch('/', {
-  //     method: 'POST',
-  //     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-  //     body: encode({ 'form-name': 'test', name, email, message }),
-  //   })
-  //     .then(() => alert('Message sent!'))
-  //     .catch((error) => alert(error));
-  // }
-
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -51,7 +28,12 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="pt-8 lg:h-screen">
+    <section
+      id="contact"
+      className="lg:h-screen"
+      data-aos="fade-down"
+      data-aos-delay="600"
+    >
       <div className="container px-5 py-10 mx-auto h-screen">
         <div className="text-center mb-20">
           <MailIcon className="w-10 inline-block mb-4" />
@@ -63,7 +45,7 @@ export default function Contact() {
             you shortly.
           </p>
         </div>
-        <div className="container mx-auto flex justify-center sm:flex-nowrap flex-wrap">
+        <div className="container px-5 mx-auto flex justify-center sm:flex-nowrap flex-wrap">
           <form
             ref={form}
             onSubmit={sendEmail}

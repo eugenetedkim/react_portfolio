@@ -7,6 +7,8 @@ export default function Projects() {
     <section
       id="projects"
       className="text-gray-400 bg-gray-900 body-font lg:h-screen"
+      data-aos="fade-down"
+      data-aos-delay="600"
     >
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20">
