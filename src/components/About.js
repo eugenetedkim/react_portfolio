@@ -3,12 +3,12 @@ import React from 'react';
 export default function About() {
   return (
     <section id="about">
-      <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center h-screen">
-        <div
-          className="lg:flex-grow md:w-1/2 lg:pb-32 md:pb-24 lg:pr-24 md:pr-24 flex flex-col items-center mb-16 md:mb-0"
-          data-aos="fade-down"
-          data-aos-delay="400"
-        >
+      <div
+        className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center h-screen"
+        data-aos="fade-down"
+        data-aos-delay="600"
+      >
+        <div className="lg:flex-grow md:w-1/2 lg:pb-32 md:pb-24 lg:pr-24 md:pr-24 flex flex-col items-center mb-16 md:mb-0">
           <div>
             <p className="text-left mb-4 text-green-500 lg:text-lg">
               Hi, my name is

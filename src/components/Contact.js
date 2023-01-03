@@ -63,7 +63,7 @@ export default function Contact() {
             you shortly.
           </p>
         </div>
-        <div className="container px-5 mx-auto flex justify-center sm:flex-nowrap flex-wrap">
+        <div className="container mx-auto flex justify-center sm:flex-nowrap flex-wrap">
           <form
             ref={form}
             onSubmit={sendEmail}
