@@ -7,7 +7,7 @@ export default function Skills() {
     <section
       id="skills"
       className="lg:h-screen"
-      data-aos="fade-down"
+      data-aos="fade-right"
       data-aos-delay="600"
     >
       <div className="container px-5 py-10 mx-auto">

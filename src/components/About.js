@@ -5,7 +5,7 @@ export default function About() {
     <section id="about">
       <div
         className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center h-screen"
-        data-aos="fade-down"
+        data-aos="fade-right"
         data-aos-delay="600"
       >
         <div className="lg:flex-grow md:w-1/2 lg:pb-32 md:pb-24 lg:pr-24 md:pr-24 flex flex-col items-center mb-16 md:mb-0">
