@@ -1,9 +1,9 @@
 export const projects = [
   {
-    title: 'Project 1',
+    title: 'Interactive Browser-based JavaScript Coding Environment',
     subtitle: 'Coming soon',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?',
+      'A CLI to launch an interactive development environment for writing + documenting code. Built using React, Redux, TypeScript, and a package-based architecture.',
     image: './project-1.gif',
     link: 'https://github.com/eugenetedkim',
   },
