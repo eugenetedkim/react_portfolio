@@ -24,6 +24,7 @@ export default function About() {
               <a
                 className="text-green-500 hover:underline visited:text-purple-600"
                 href="https://www.fulgentgenetics.com/"
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 Fulgent Genetics

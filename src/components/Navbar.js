@@ -19,8 +19,16 @@ export default function Navbar() {
           <a href="#projects" className="mr-5 hover:text-white">
             Work
           </a>
-          <a href="#skills" className="hover:text-white">
+          <a href="#skills" className="mr-5 hover:text-white">
             Skills
+          </a>
+          <a
+            className="hover:text-white"
+            href="./resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Resume
           </a>
         </nav>
         <a
