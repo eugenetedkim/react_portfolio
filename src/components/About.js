@@ -21,8 +21,8 @@ export default function About() {
               Eugene Kim
               <span
                 className="title-font text-6xl mb-4 font-medium text-white"
-                data-aos="fade-right"
-                data-aos-delay="1800"
+                data-aos="fade-down"
+                data-aos-delay="2400"
               >
                 .
               </span>
