@@ -18,14 +18,7 @@ export default function About() {
               data-aos="fade-left"
               data-aos-delay="600"
             >
-              Eugene Kim
-              <span
-                className="title-font text-6xl mb-4 font-medium text-white"
-                data-aos="fade-down"
-                data-aos-delay="1400"
-              >
-                .
-              </span>
+              Eugene Kim.
             </h1>
             <h1
               className="title-font text-6xl mb-4 font-medium text-gray-300"
