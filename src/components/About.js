@@ -22,7 +22,7 @@ export default function About() {
               <span
                 className="title-font text-6xl mb-4 font-medium text-white"
                 data-aos="fade-down"
-                data-aos-delay="2400"
+                data-aos-delay="1400"
               >
                 .
               </span>
