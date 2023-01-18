@@ -16,12 +16,18 @@ export default function Projects() {
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
             Apps I've Built
           </h1>
+          <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
+            COMING SOON
+          </h1>
+          {/*
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
             Here are some projects I've worked on. For more details, hover over
             each project for a brief description and click if you want to dig
             deeper into the code.
           </p>
+          */}
         </div>
+        {/*
         <div className="flex flex-wrap -m-4">
           {projects.map((project) => (
             <a
@@ -48,6 +54,7 @@ export default function Projects() {
             </a>
           ))}
         </div>
+        */}
       </div>
     </section>
   );
