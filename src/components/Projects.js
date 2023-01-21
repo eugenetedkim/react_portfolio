@@ -1,8 +1,14 @@
 import { CodeIcon } from '@heroicons/react/solid';
-import React from 'react';
+import React, { useEffect } from 'react';
 import { projects } from '../data';
 
 export default function Projects() {
+  useEffect(() => {
+    fetch('http://164.92.79.10/products')
+      .then((response) => response.json())
+      .then((json) => console.log(json));
+  });
+
   return (
     <section
       id="projects"
