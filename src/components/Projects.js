@@ -4,7 +4,7 @@ import { projects } from '../data';
 
 export default function Projects() {
   useEffect(() => {
-    fetch('http://164.92.79.10/products')
+    fetch('https://164.92.79.10/products')
       .then((response) => response.json())
       .then((json) => console.log(json));
   });
